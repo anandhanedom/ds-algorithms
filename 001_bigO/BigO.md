@@ -2,7 +2,7 @@
 
 How long an algorithm takes to run?
 
-![bigO](/img/bigO.png)
+![bigO](/img/bigO)
 
 ### Rules :
 
