@@ -30,4 +30,13 @@ const findNemo = (arr) => {
 };
 
 // findNemo(nemo); - 0.... seconds
-findNemo(large); // O(n) --> linear time
+// findNemo(large); // O(n) --> linear time
+
+const boxes = [0, 1, 2, 3, 4, 5];
+
+function logFirstTwoBoxes(arr) {
+  console.log(arr[0]); //O(1)
+  console.log(arr[1]); //O(1)
+}
+
+logFirstTwoBoxes(boxes); //O(2)
