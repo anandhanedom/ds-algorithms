@@ -19,8 +19,10 @@ const findNemo = (arr) => {
   //   let t0 = performance.now();
 
   for (let i = 0; i < arr.length; i++) {
+    console.log('running');
     if (arr[i] === 'nemo') {
       console.log('Found NEMO!');
+      break;
     }
   }
 
