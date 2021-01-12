@@ -15,3 +15,4 @@ How long an algorithm takes to run?
 
 1. O(n) --> Linear time
 2. O(1) --> Constant time
+3. O(n^2) --> Quadratic time
