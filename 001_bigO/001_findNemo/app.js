@@ -42,3 +42,23 @@ function logFirstTwoBoxes(arr) {
 }
 
 logFirstTwoBoxes(boxes); //O(2)
+
+const findNemo2 = (array) => {
+  array.forEach((fish) => {
+    if (fish === 'nemo') {
+      console.log('Found nemo!!');
+    }
+  });
+};
+
+const findNemo3 = (array) => {
+  for (let fish of array) {
+    if (fish === 'nemo') {
+      console.log('Found nemo!!');
+    }
+  }
+};
+
+findNemo(nemo);
+findNemo2(everyone);
+findNemo3(everyone);
