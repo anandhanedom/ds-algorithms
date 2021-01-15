@@ -4,7 +4,7 @@ const strings = ['a', 'b', 'c', 'd']; //4*4 = 16bytes
 console.log(strings[1]); //O(1)
 
 // PUSH
-strings.push('e'); //O(1)
+strings.push('e'); //O(1) , can be O(n) (dynamic arrays)
 
 // POP
 strings.pop(); //O(1)
