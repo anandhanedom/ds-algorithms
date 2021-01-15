@@ -1,0 +1,18 @@
+const strings = ['a', 'b', 'c', 'd']; //4*4 = 16bytes
+
+//Access
+console.log(strings[1]); //O(1)
+
+// PUSH
+strings.push('e'); //O(1)
+
+// POP
+strings.pop(); //O(1)
+
+// Add at the beginning - unshift
+strings.unshift('x'); //O(n)
+
+//Splice
+strings.splice(strings.length / 2, 0, 'alien'); //O(n)
+
+console.log(strings);

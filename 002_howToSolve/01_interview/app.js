@@ -28,7 +28,7 @@
 //     }
 //   }
 //   return false;
-// }
+// } //Space complexity : O(1)
 
 // console.log(bruteFind([1, 5, 10], [2, 6, 11]));
 // console.log(bruteFind([1, 2, 10], [2, 6, 11]));
@@ -45,15 +45,18 @@
 
 function containsCommonItem(arr1, arr2) {
   // 1. Loop through first array and create obj where properties === items in the array.
+  // can we assume always 2 params?
 
   const obj = {};
 
   for (let i = 0; i < arr1.length; i++) {
     if (!obj[arr1[i]]) {
-    //   console.log(arr1[i]);
+      //   console.log(arr1[i]);
       obj[arr1[i]] = true;
     }
   }
+
+  //Space complexity : O(a)
 
   //   console.log(obj);
 
@@ -68,7 +71,7 @@ function containsCommonItem(arr1, arr2) {
   return false;
 }
 
-const array1 = ['a', 'a', 'b', 'c', 'x'];
-const array2 = ['z', 'y', 'i', 'm', 's'];
+const array1 = ['a', 'a', 'c', 'x'];
+const array2 = ['z', 'b', 'w'];
 
 console.log(containsCommonItem(array1, array2));
