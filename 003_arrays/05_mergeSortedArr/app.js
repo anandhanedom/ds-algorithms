@@ -10,7 +10,7 @@ const mergeSortedArrays = (array1, array2) => {
   let i = 1,
     j = 1;
 
-  //Check Input
+  //Check the inputs
   if (Array.isArray(array1) && Array.isArray(array2)) {
     return 'Hmm....check the inputs!';
   } else if (array1.length === 0) {
