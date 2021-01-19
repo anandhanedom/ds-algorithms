@@ -44,16 +44,18 @@ class LinkedList {
       next: null,
     };
 
+    node.next = this.head;
+
     this.head = node;
-    length++;
+    this.length++;
+
+    return this;
   }
 }
 
 const myLinkedList = new LinkedList(10);
 
-myLinkedList.append(5);
-myLinkedList.append(16);
+console.log(myLinkedList.append(5));
+console.log(myLinkedList.append(16));
 
-myLinkedList.preppend(0);
-
-console.log(myLinkedList);
+console.log(myLinkedList.preppend(0));
