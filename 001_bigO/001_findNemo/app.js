@@ -26,9 +26,9 @@ const findNemo = (arr) => {
     }
   }
 
-  //   let t1 = performance.now();
+    let t1 = performance.now();
 
-  //   console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+    console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
 };
 
 // findNemo(nemo); - 0.... seconds
