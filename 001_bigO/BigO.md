@@ -18,7 +18,7 @@ How long an algorithm takes to run?
 
 ### Two separate collections: O(a \* b)
 
-### What can cause time in a function?-
+### What can cause time in a function? :
 
 1. Operations (+, -, \*, /)
 2. Comparisons (<, >, ==)
