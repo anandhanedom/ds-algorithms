@@ -18,7 +18,7 @@ How long an algorithm takes to run?
 
 ### Two separate collections: O(a \* b)
 
-### What can cause time in a function?-
+### What can cause time in a function? :
 
 1. Operations (+, -, \*, /)
 2. Comparisons (<, >, ==)
@@ -32,7 +32,7 @@ How long an algorithm takes to run?
 3. Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a\*b), + for steps in order , \* for nested steps
 4. Drop Non-dominant terms
 
-### What causes Space complexity?-
+### What causes Space complexity? :
 
 1. Variables
 2. Data Structures
