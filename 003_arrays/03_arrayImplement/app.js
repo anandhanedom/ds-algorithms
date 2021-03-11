@@ -38,16 +38,17 @@ const newArray = new MyArray();
 
 console.log(newArray.get(0));
 
-console.log(newArray.push('hi'));
-console.log(newArray.push('you'));
-console.log(newArray.push('!'));
+console.log(newArray.push("hi"));
+console.log(newArray.push("you"));
+console.log(newArray.push("!"));
 
-console.log(newArray.push('are'));
-console.log(newArray.push('nice'));
+console.log(newArray.push("are"));
+console.log(newArray.push("nice"));
 
 newArray.delete(0);
 newArray.delete(1);
 
+// console.log(newArray.pop());
 // console.log(newArray.pop());
 // console.log(newArray.pop());
 
