@@ -48,8 +48,8 @@ console.log(newArray.push("nice"));
 newArray.delete(0);
 newArray.delete(1);
 
-// console.log(newArray.pop());
-// console.log(newArray.pop());
-// console.log(newArray.pop());
+console.log(newArray.pop());
+console.log(newArray.pop());
+console.log(newArray.pop());
 
 console.log(newArray);
