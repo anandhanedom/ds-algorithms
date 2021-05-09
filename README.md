@@ -1,2 +1,2 @@
 # ds-algorithms
-Data Structures and Algorithms
+Data Structures & Algorithms
