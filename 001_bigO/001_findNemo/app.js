@@ -16,7 +16,7 @@ const everyone = [
 const large = new Array(10000).fill('nemo');
 
 const findNemo = (arr) => {
-  //   let t0 = performance.now();
+    let t0 = performance.now();
 
   for (let i = 0; i < arr.length; i++) {
     console.log('running');
